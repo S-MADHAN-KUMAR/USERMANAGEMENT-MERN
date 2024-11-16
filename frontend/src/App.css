@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bgc{
+  background: #51a0dd;
+}
+.container{
+  min-height: 600px;
+}
+/* Table styles */
+.bordered-table {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif; /* You can specify any preferred font */
+  font-size: 16px; /* Set base font size */
+}
+
+/* Table header styles */
+.bordered-table th {
+  background-color: #51a0dd;
+  color: white;
+  font-weight: 500; /* Font weight for table header */
+  padding: 40px; /* Add padding for better readability */
+}
+
+/* Table row styles */
+.bordered-table tr {
+  background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+}
+
+.bordered-table tr:hover {
+  background-color: #e0e7ff; /* Add hover effect */
+}
+
+/* Table cell styles */
+.bordered-table th, .bordered-table td {
+  border: 1px solid white;
+  padding: 18px 40px; /* Add padding to make cells more spacious */
+  text-align: left; /* Align text to the left for better readability */
+  font-weight: 500; /* Font weight for the cells */
+  text-base: 1rem; /* Use base font size */
+}
+
+/* Optional: Table cell hover effect */
+.bordered-table td:hover {
+  background-color: #f0f5ff; /* Light hover effect */
+}
+
+.btn-edit {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #45a049;
+}
+
+.btn-delete {
+  background-color: #f44336; /* Red */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+}
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: hidden;
+  height: 120vh; 
+}
+
