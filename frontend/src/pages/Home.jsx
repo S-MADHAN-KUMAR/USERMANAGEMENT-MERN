@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import About from '../components/About'
 const Home = () => {
   return ( 
-    <div>
+    <div> 
     <Header/> 
     <About/>   
     </div> 
